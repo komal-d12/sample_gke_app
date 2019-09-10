@@ -22,6 +22,6 @@ public class GkeService {
     	strBuffer.append(calendar.get(Calendar.SECOND));
     	strBuffer.append(".");
     	System.out.println(strBuffer.toString());
-        return "";
+        return strBuffer.toString();
     }
 }
